@@ -39,7 +39,7 @@ pip install agentdiff
 The repo ships a deterministic demo agent. Run the baseline, "change the code" (set an env var), re-run, and diff:
 
 ```bash
-git clone https://github.com/YOURNAME/agentdiff && cd agentdiff/examples
+git clone https://github.com/Abhishekpundir23/agentdiff && cd agentdiff/examples
 
 agentdiff run --suite suite.yaml --agent demo_agent:run --repeats 3 --out baseline.json
 
